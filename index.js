@@ -1,10 +1,4 @@
-emailjs.init("user_UcZlAqj4KIhyVMi8qLCOW");
-emailjs.send("service_3nbn78p", "template_gr5no5m", {
-  to_name: "Yadi",
-  from_name: "Anonimus",
-  message: "1 Visitor ke github pages OJK",
-  reply_to: "Yadi@gmail.com",
-});
+
 
 var popover = new bootstrap.Popover(
   document.querySelector(".popover-dismiss"),
