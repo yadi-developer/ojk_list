@@ -93,7 +93,7 @@ const cardAppsTemplates = (title, yadi, url) => `
               <p class="card-title">
                 Dikelola oleh : ${yadi ? yadi : ""}
               </p>
-               <a href="https\://${
+               <a href="${ url.includes('http') ? '' : 'https://' }${
                  url ? url : ""
                }" target="_blank" class="btn btn-info">Link</a>
            </div>
